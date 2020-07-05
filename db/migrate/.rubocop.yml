@@ -1,0 +1,13 @@
+inherit_from:
+  - ../../.rubocop.yml
+
+# Uncommenting either Metrics/MethodLength or Style/Documentation will disable Rails/CreateTableWithTimestamps!
+
+#Metrics/MethodLength:
+#  Enabled: false
+
+Rails/CreateTableWithTimestamps:
+  Enabled: true
+
+#Style/Documentation:
+#  Enabled: false
